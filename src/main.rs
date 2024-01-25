@@ -1,5 +1,6 @@
 mod schema;
 mod routes;
+mod models;
 
 use actix_web::{App, HttpServer, Responder};
 use crate::routes::{posts, profiles, tags, users};
