@@ -1,3 +1,5 @@
+mod schema;
+
 use actix_web::{get, post, App, HttpResponse, HttpServer, Responder};
 
 #[get("/")]
